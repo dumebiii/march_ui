@@ -1,0 +1,51 @@
+name: march_ui
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.3.1
+  flutter_circular_text: ^0.3.1
+  google_fonts: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  assets:
+    - images/
+ 
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+      
+        - asset: fonts/PlayfairDisplay-Black.ttf
+          weight: 900
+    - family: PTSansNarrow
+      fonts:
+        - asset: fonts/PTSansNarrow-Bold.ttf
+          weight: 700
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
